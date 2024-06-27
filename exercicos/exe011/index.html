@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias no html</title>
+</head>
+<body>
+    <h1>imagens dinamincas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferente ou simplesmente  aumente ou diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens//fotop.png" type="image/png">
+       <source media="(max-width:1050px )" srcset="imagens//fotom.png" type="image/png">
+         <img src="imagens//fotog.png" alt="imagem flexivel">
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p>Vamos aprender reproduzir audio em html5</p>
+   <audio preload="metadata" controls autoplay >
+    <source src="midia/UkuleleBeachDoug Maxwell.mp3" type="mpeg">
+    <source src="midia/podscat.ogg" type="ogg">
+    <source src="midia/UkuleleBeachDoug Maxwell.wav" type="wav">
+   </audio>
+   
+    <audio src="midia/UkuleleBeachDoug Maxwell.mp3" controls autoplay> </audio>
+</body>
+</html>
