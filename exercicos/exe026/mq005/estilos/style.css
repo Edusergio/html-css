@@ -32,7 +32,7 @@ menu ul li a{
      border-top: 2px  solid black;
 }
 
-i#burger{
+i#burguer{
     background-color:rgb(49, 48, 48) ;
     display: block;
     color: white;
@@ -41,7 +41,7 @@ i#burger{
     cursor: pointer;
 }
 
-i#burger:hover{
+i#burguer:hover{
     background-color: white;
     color: black;
 }
